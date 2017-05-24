@@ -20,7 +20,13 @@ class Pizzas extends React.Component {
 
   render() {
     let amountPizza;
-    if (this.state.pizzas > 400) {
+    if (this.state.pizzas > 1000) {
+      amountPizza = <img src='http://www.reactiongifs.com/wp-content/uploads/2013/12/please.gif'></img>
+    }
+    else if (this.state.pizzas > 500) {
+      amountPizza = <img src='https://media.giphy.com/media/l4Ki2obCyAQS5WhFe/giphy.gif'></img>
+    }
+    else if (this.state.pizzas > 400) {
       amountPizza = 'My Suggestion? Salad man, lots of it!';
     }
     else if (this.state.pizzas > 150) {

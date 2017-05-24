@@ -16,7 +16,6 @@
 
 
  body {
-    background-color: #F5F8FA;
     color: #339CC3;
     font-family: monospace;
     text-align: center;
@@ -33,6 +32,7 @@
  }
 
 input {
-  width: 200px;
+  width: 500px;
   border: 1px solid black;
+  font-size: 2em;
 }

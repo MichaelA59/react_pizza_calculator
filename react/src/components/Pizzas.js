@@ -5,7 +5,7 @@ class Pizzas extends React.Component {
     super(props);
     this.state = {
       people: 0,
-      pizzas: 0
+      pizzas: null
     }
     this.handleChange = this.handleChange.bind(this)
   }
@@ -20,19 +20,28 @@ class Pizzas extends React.Component {
 
   render() {
     let amountPizza;
-    if (this.state.pizzas > 50) {
+    if (this.state.pizzas > 400) {
+      amountPizza = 'My Suggestion? Salad man, lots of it!';
+    }
+    else if (this.state.pizzas > 150) {
+      amountPizza = 'Ok, actually you need help...';
+    }
+    else if (this.state.pizzas > 50) {
       amountPizza = 'To open your own pizza shoppe!';
+    }
+    else if (this.state.pizzas == null) {
+      amountPizza = '';
     }
     else {
       amountPizza = `${this.state.pizzas} pizzas`
     }
-    
+
     return(
       <div>
       <form>
         <input type="text" placeholder="Number of People" value={this.state.people} onChange={this.handleChange} ></input>
       </form>
-      <h2>You need </h2>
+      <h2>You Need</h2>
       <h2>{amountPizza}</h2>
       </div>
     )

@@ -1,24 +1,23 @@
-# README
+# React Pizza Calculator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I wanted to make a super quick app using React, so here it is.
+A simple calculator for ordering pizza based on people attending your event.
+Depending on the amount of people attending, you will be met with either:
 
-Things you may want to cover:
+1. A calculation
+2. Advice
+3. Mockery
 
-* Ruby version
+# Setup
 
-* System dependencies
+run `bundle install`
 
-* Configuration
+then, in another tab, `npm install` 
 
-* Database creation
+then `rails s` in one tab and `npm start` in the other
 
-* Database initialization
+got to `localhost:3000`
 
-* How to run the test suite
+or check it out on Heroku all set up
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://reactpizzacalculator.herokuapp.com

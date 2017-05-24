@@ -5,7 +5,8 @@ A simple calculator for ordering pizza based on people attending your event.
 Depending on the amount of people attending, you will be met with either:
 
 1. A calculation
-2. Mockery
+2. Advice
+3. Mockery
 
 # Setup
 

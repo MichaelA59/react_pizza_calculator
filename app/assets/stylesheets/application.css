@@ -36,3 +36,7 @@ input {
   border: 1px solid black;
   font-size: 2em;
 }
+
+.gifback {
+  background-image: url('https://media.giphy.com/media/iThaM3NlpjH0Y/giphy.gif');
+}

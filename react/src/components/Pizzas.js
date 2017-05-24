@@ -4,7 +4,7 @@ class Pizzas extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      people: 0,
+      people: null,
       pizzas: null
     }
     this.handleChange = this.handleChange.bind(this)

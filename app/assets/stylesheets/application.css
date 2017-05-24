@@ -24,7 +24,12 @@
 
  h5 {
    color: #339CC3;
-   font-size: 4em;
+   font-size: 3em;
+ }
+
+ h2 {
+   color: #339CC3;
+   font-size: 5em;
  }
 
 input {

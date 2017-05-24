@@ -18,28 +18,17 @@
  body {
     background-color: #F5F8FA;
     color: #339CC3;
-
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
  }
 
- ul {*/
-    width: 300px;
-    text-align: center;
- }
- p {
-    width: 50%;
-    border: 3px solid black;
-    border-radius: 12px;
-    text-align: center;
- }
-
- h1 {
+ h5 {
    color: #339CC3;
    font-size: 1.5em;
  }
 
- .message {
-   color: #93C47D;
- }
+input {
+  width: 200px;
+  border: 1px solid black;
+}

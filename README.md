@@ -2,7 +2,7 @@
 
 I wanted to make a super quick app using React, so here it is.
 A simple calculator for ordering pizza based on people attending your event.
-Depending on the amount of people attending, you will be prompted with either 
+Depending on the amount of people attending, you will be met with either:
 
 1. A calculation
 2. Mockery

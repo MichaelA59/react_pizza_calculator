@@ -19,6 +19,7 @@
     color: #339CC3;
     font-family: monospace;
     text-align: center;
+    background-color: #eaeae3;
  }
 
  h5 {
@@ -32,8 +33,8 @@
  }
 
 input {
-  width: 500px;
-  border: 1px solid black;
+  width: 550px;
+  border: 2px solid black;
   font-size: 2em;
 }
 
